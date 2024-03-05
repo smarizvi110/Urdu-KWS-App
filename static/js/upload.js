@@ -19,7 +19,7 @@ uploadForm.onsubmit = async (e) => {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         const data = await response.json();
-        keywordsDiv.textContent = 'Keywords: ' + data.keywords;
+        keywordsDiv.textContent = 'Keyword: ' + data.keywords;
     }
     catch (error) {
         console.error('Error uploading file:', error);

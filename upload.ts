@@ -24,7 +24,7 @@ uploadForm.onsubmit = async (e: Event) => {
         }
 
         const data = await response.json();
-        keywordsDiv.textContent = 'Keywords: ' + data.keywords;
+        keywordsDiv.textContent = 'Keyword: ' + data.keywords;
     } catch (error) {
         console.error('Error uploading file:', error);
     }
