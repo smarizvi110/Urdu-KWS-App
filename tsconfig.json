@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "lib": ["DOM", "ESNext"],
+      "outDir": "./static/js",
+      "strict": true,
+      "esModuleInterop": true,
+      "moduleResolution": "node"
+    },
+    "include": ["upload.ts"]
+  }
