@@ -16,7 +16,7 @@ def allowed_file(filename):
 def index():
     return render_template('index.html')
 
-@app.route('/spot-keywords', methods=['POST'])
+@app.route('/spot-keyword', methods=['POST'])
 def spot_keywords():
     if 'file' not in request.files:
         return jsonify({"error": "No file part"}), 400

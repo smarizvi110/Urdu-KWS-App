@@ -11,7 +11,7 @@ uploadForm.onsubmit = async (e) => {
     const formData = new FormData();
     formData.append('file', audioFileInput.files[0]);
     try {
-        const response = await fetch('http://127.0.0.1:5000/spot-keywords', {
+        const response = await fetch('http://127.0.0.1:5000/spot-keyword', {
             method: 'POST',
             body: formData,
         });
