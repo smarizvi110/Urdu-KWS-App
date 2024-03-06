@@ -1,0 +1,38 @@
+/* src/styles/AudioUpload.css */
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #343a40; /* Dark Blue color */
+}
+
+h1 {
+  color: #ffffff; /* White color for the title */
+}
+
+.file-input-container {
+  /* margin-top: 16px; */
+  color: #ffffff;
+  padding: 10px;
+  background-color: #4d4d4d;
+}
+
+.upload-button {
+  margin-top: 16px;
+}
+
+/* Loading Popup Styling */
+.loading-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  z-index: 1000;
+}

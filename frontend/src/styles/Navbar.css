@@ -1,0 +1,75 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #000000;
+}
+
+.navbar-logo {
+  color: rgb(130, 24, 15);
+}
+
+.navbar-brand {
+  font-size: x-large;
+  color: rgb(130, 24, 15);
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.navbar-items {
+  display: flex;
+  align-items: center;
+  flex: 1; /* Add this line to make the navbar-items take remaining space */
+  justify-content: center; /* Center the links horizontally */
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .navbar-nav {
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: #000000;
+      width: 100%;
+      display: none;
+  }
+
+  .navbar-nav.active {
+      display: flex;
+  }
+
+  .nav-item {
+      margin: 10px 0;
+      text-align: center; /* Center the links vertically */
+  }
+
+  .menu-icon {
+      display: block;
+  }
+}

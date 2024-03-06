@@ -1,0 +1,50 @@
+/* HomePage.css */
+
+.main-container {
+    text-align: center;
+}
+
+.background-image {
+    width: 100%;
+    height: 300px; /* Adjust the height based on your image */
+    background-image: url('../assets/bg.jpeg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.main-logo {
+    width: 150px; /* Adjust the size based on your preference */
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-heading {
+    font-size: 2.1rem;
+    color: #fff;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sub-heading {
+    font-weight: bolder;
+    padding-top: 6rem;
+    font-size: 2.1rem;
+    color: rgb(131, 24, 15);
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-description {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    line-height: 1.8;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}

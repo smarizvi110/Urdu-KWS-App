@@ -1,0 +1,25 @@
+/* ContactUs.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    /* display: flex; */
+    /* justify-content: center; */
+  }
+  
+  .container h2 {
+    font-size: 40px;
+    display: flex;
+    color: #8e0707;
+  }
+  
+  .container p {
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000000;
+  }
+  
+  /* Add additional styles as needed */
+  
