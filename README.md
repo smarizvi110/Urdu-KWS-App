@@ -17,7 +17,7 @@ This project is a simple web application for keyword spotting in audio files. It
 ### Prerequisites
 
 - Python 3.6 or higher
-- npm and Node.js (for compiling TypeScript)
+- npm and Node.js (optional, for editing and compiling TypeScript)
 
 ### Installation
 
@@ -28,8 +28,8 @@ This project is a simple web application for keyword spotting in audio files. It
     cd Urdu-KWS-Flask-App
     ```
 
-2. **Set up the TypeScript compiler**
-    - Compile the TypeScript file (`upload.ts`) to JavaScript:
+2. **Set up the TypeScript compiler (optional)**
+    - If you wish to edit the TypeScript file (`upload.ts`), you will also need to recompile it to to JavaScript:
 
         ```zsh
         npm install -g typescript
